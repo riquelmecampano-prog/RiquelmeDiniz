@@ -44,7 +44,7 @@ st.markdown(f"""
     """, unsafe_allow_html=True)
 
 # 4. Carregar e Traduzir Dados
-df = pd.read_csv(r"C:\Users\rique\OneDrive\Documentos\Riquelme Diniz\shopping_trends.csv")
+df = pd.read_csv("shopping_trens.csv")
 
 # Aplicando traduções
 MAPA_TEMPORADAS_ORIGINAL = {"Winter": "Inverno", "Spring": "Primavera", "Summer": "Verão", "Fall": "Outono"}
